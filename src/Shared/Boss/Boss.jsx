@@ -2,7 +2,7 @@ import img1 from "../../assets/home/chef-service.jpg"
 const Boss = () => {
     return (
         <section>
-            <div className="relative">
+            <div className="relative ">
             <div  >
                <img  src={img1} alt="" />
             </div>
