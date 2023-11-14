@@ -1,3 +1,4 @@
+import Boss from "../../Shared/Boss/Boss";
 import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
            <Banner/>
            <Category/>
+           <Boss/>
         </div>
     );
 };
