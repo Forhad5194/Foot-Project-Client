@@ -6,8 +6,9 @@ const Navbar = () => {
 
 
     const navItems = <>
-     <NavLink >Home</NavLink>
-     <NavLink  to={'/Menu'}>Menu</NavLink>
+     <NavLink   className="mr-10" >Home</NavLink>
+     <NavLink   className="mr-10" to={'/Menu'}>Menu</NavLink>
+     <NavLink   className="mr-10" to={'/orders'}>orders</NavLink>
     </>
 
 
@@ -28,8 +29,8 @@ const Navbar = () => {
                 <div className="flex justify-between">
                     <a className="btn btn-ghost text-xl">daisyUI</a>
                 </div>
-                <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1">
+                <div className="flex ">
+                    <ul className=" ml-10 ">
                       {navItems}
                     </ul>
                 </div>
