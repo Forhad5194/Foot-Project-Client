@@ -33,7 +33,7 @@ const Menu = () => {
         <div>
 
             <Helmet>
-                <title>Menu</title>
+                <title> BISTRO BOSS | Menu</title>
             </Helmet>
             <Cover image={menuImg} title={'OUR MENU'} subTile={'Would you like tye a dIsh'} />
 

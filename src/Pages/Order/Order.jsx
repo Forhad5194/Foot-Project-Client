@@ -9,7 +9,7 @@ import FoodCard from "../../Shared/FoodCard/FoodCard";
 
 
 const Order = () => {
-    // const categorys = [ 'Salad' , 'pizza' , 'soups' , 'Desserts' , 'Drinks' ]
+   
 
     const [menu] = useMenu();
     const drinks= menu.filter(item => item.category === 'drinks');
@@ -28,7 +28,7 @@ const Order = () => {
     return (
         <div>
             <Helmet>
-                <title>Order</title>
+                <title>  BISTRO BOSS |  Order</title>
             </Helmet>
 
             <Cover image={coverImg} title={"OUR SHOP"}  ></Cover>
